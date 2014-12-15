@@ -1,0 +1,29 @@
+{
+    "name": "fabiopaiva/is-avail-registro-br",
+    "description": "Módulo para ZF2 da ferramenta IsAvail do RegistroBR",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "zf2"
+    ],
+    "homepage": "https://github.com/fabiopaiva/IsAvailRegistroBR",
+    "authors": [
+        {
+            "name": "Fábio Paiva",
+            "email": "paiva.fabiofelipe@gmail.com",
+            "homepage": "http://sigweb.net.br"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.3.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "IsAvailRegistroBR": "src/"
+        },
+        "classmap": [
+            "./"
+        ]
+    }
+}
